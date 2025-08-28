@@ -127,7 +127,7 @@ void driveOutputs() {
 }
 
 void reportBack() {
-  Serial.print("photoVal = ");
+  Serial.print("photoVal = July");
   Serial.print(photoVal);
   Serial.print(", potVal = ");
   Serial.print(potVal);
