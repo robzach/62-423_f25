@@ -133,4 +133,5 @@ void reportBack() {
   Serial.print(potVal);
   Serial.print(", buttonVal = ");
   Serial.println(buttonVal);
+  Serial.println("HI!!!");
 }
