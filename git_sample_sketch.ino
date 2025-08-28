@@ -77,7 +77,7 @@ void loop() {
   reportBack();
 
   // a brief delay at the bottom of the loop is usually a good idea
-  delay(5);
+  delay(10);
 }
 
 void readInputs() {
