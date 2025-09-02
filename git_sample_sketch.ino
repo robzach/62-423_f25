@@ -59,8 +59,8 @@ void setup() {
   pinMode(BUTTONPIN, INPUT_PULLUP);  // far leg of button to ground
   pinMode(BUZZERPIN, OUTPUT);
 
-  // start serial connection at 9,600 baud
-  Serial.begin(9600);
+  // start serial communication at 19200 baud rate
+  Serial.begin(19200);
 }
 
 void loop() {
